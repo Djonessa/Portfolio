@@ -44,7 +44,7 @@
 }
 
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.4)), url("../assets/blueprint.jpg"); /* Background image */
+  background-image: url("../assets/blueprint.jpg"); /* Background image */
   background-size: cover; /* Cover the entire section */
   background-position: center; /* Center the image */
   height: 100vh; /* Full viewport height */
