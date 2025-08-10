@@ -37,7 +37,11 @@
 .navbar a:hover {
   color: #0077b6; /* Accent color on hover */
 }
-
+.navbar-toggler {
+  border-color: black;
+  border-radius: 6px;
+border-radius: 6px;
+}
 .hero{
      
   background-image:linear-gradient(rgba(0, 0, 0, 0.336), rgba(0,0,0,0.4)),/* Dark overlay */ 
