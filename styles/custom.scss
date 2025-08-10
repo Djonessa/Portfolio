@@ -1,0 +1,127 @@
+#preloader {
+  position: fixed;
+  background: center center no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100%;
+  height: 100%;
+  background-color: gray; /* Black background */
+  z-index: 100; /* Ensure it covers everything */
+}
+#preloader {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+#preloader.fade-out {
+  opacity: 0;
+}
+
+
+.preloader-inner {
+  width: 25%; /* Adjust size as needed */
+  height: 25%; /* Adjust size as needed */
+
+}
+
+.navbar a {
+  color: #111; /* Replace with any color you'd like */
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+/*  Hover effect */
+.navbar a:hover {
+  color: #0077b6; /* Accent color on hover */
+}
+
+.hero{
+     
+  background-image:linear-gradient(rgba(0, 0, 0, 0.336), rgba(0,0,0,0.4)),/* Dark overlay */ 
+  url("/assets/blueprint.jpg"); /* Background image */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the image */ 
+  height: 100vh; /* Full viewport height */
+  
+}
+   
+
+.auto-type {
+  font-family:"Indie Flower", cursive;
+ color: 7BFF0F;
+  font-size: clamp(1.5rem, 4.5vw, 2.5rem);
+}
+.hero-text {
+  h1{font-size: clamp(2.5rem, 6vw, 4rem);}
+}
+
+
+.about{
+  background-color:#f8f9fa;
+  padding: 2rem;
+  h2{
+     font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #222
+  }
+  h3{
+    font-family: 'Prociono', serif;
+  font-size: 1.3rem;
+  color: #222;
+  }
+  p{
+    font-family: 'Rhodium Libre', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #111; 
+  margin: 1rem 0;
+
+  }
+}
+
+.projects{
+  background-color: #eaf4f8;
+  h2{
+     font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #222
+  }
+  h4{
+    font-family: 'Prociono', serif;
+  font-size: 1.3rem;
+  color: #222;
+  }
+  p{
+    font-family: 'Rhodium Libre', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #111; 
+  margin: 1rem 0;
+
+  }
+
+}
+.skills{
+  margin-top: 2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+  color: #222;
+}
+.juxtapose {
+  width: 100%;
+  height: 400px; /* default mobile/tablet */
+}
+
+@media (min-width: 1200px) { /* Extra large desktop screens */
+  .juxtapose {
+    height: 800px;
+  }
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";

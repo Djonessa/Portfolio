@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delesha Owusu | Web Developer & Digital Builder</title>
+  <link rel="stylesheet" href="styles/custom.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Indie+Flower&family=Prociono&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rhodium+Libre&display=swap" rel="stylesheet">
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"></script>
+</head>
+
+<!-- preloading screen lottie animation -->
+ <div id="preloader">
+  <div class ="preloader-inner">
+    <dotlottie-player
+      src="assets/preloader.lottie"
+      background="transparent"
+      speed="1"
+      loop
+      autoplay>
+    </dotlottie-player>
+  </div>
+  </div>
+  
+
+<!-- navbar  -->
+<body class="vh-100">
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#fafdff;">
+    <div class="container">
+      <a class="navbar-brand" href="home.html">
+        <img src="assets/Dologo.png" class="rounded" width="85" height="85" alt="D.Owusu">
+      </a>
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto p-2">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="services.html">Services</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+    
+  <main>
+  
+  <!-- Hero Section -->
+  <section class="hero" style="position: relative; height: 100vh;">
+    <div class="container">
+      <div class="row">
+        <div class="hero-text col-lg-12 position-absolute top-50 start-50 translate-middle text-center text-white">
+          <h1>Howdy, I'm Dee Owusu</h1>
+    <div class="container typing-text text-warning">
+      <h2> I'm a <span class="auto-type"></span></h2>
+  
+       
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <div class="about">
+    <h2>About Me</h2>
+    <h3>A web developer who understands small business</h3>
+    <p>I'm Dee, a web developer who helps small businesses, especially contractors, turn their websites into practical tools that save time, build trust, and bring in more jobs.
+       After helping my husband grow his luxury wall finishes business with a clean website and better systems, I saw firsthand how powerful the right online presence can be. Skilled trades deserve the same prestige as polished professionals, and I build websites that reflect that level of excellence.
+
+Whether you’re a contractor tired of tech headaches or a company looking for a developer who understands how design, function, and business goals connect, I can help. Let’s build something better, together.</p>
+  
+  </div>
+ <!-- Projects Section -->
+<section class="projects container-fluid">
+  <h2 class="section-title">Recent Projects</h2>
+  <h4>A few examples of how I help businesses show up, stand out, and simplify their online presence.</h4>
+
+  <!-- Sevenley Project -->
+  <p><b>Project:</b> <a href="https://sevenleyconstructionpartners.netlify.app/" target="_blank" rel="noopener">Sevenley Construction website</a></p>
+  <p>Static HTML/CSS/Bootstrap build for a high-end custom home builder in Texas. Focused on blueprint-inspired branding, clean layout, and responsiveness across devices.</p>
+
+  <div class="ratio ratio-16x9 mb-3">
+    <video autoplay loop muted playsinline>
+      <source src="assets/sevenley-mockup.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="project-card mb-5">
+    <img src="assets/sevenley-mockup.png" style="width: 40%; max-width: 300px;" class="img-fluid" alt="Sevenley Construction">
+    <p>Want to see how I build? Visit my <a href="https://github.com/Djonessa/sevenley-site" target="_blank">GitHub</a>.</p>
+  </div>
+
+  <!-- Der Maler Project -->
+  <h3>Der Maler Painting</h3>
+  <p>Wix website I customized for a luxury wall finishing company in San Antonio, Tx.</p>
+  <p><b>Project:</b> <a href="https://www.dermalerpainting.com/" target="_blank" rel="noopener">Der Maler Painting website</a></p>
+  <p>Drag the slider to see the transformation.</p>
+
+  <div class="ratio ratio-4x3 ratio-md-16x9 mb-5">
+    <iframe frameborder="0" class="juxtapose" width="100%" height="600" 
+      src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=63f56610-7609-11f0-bb24-0936e1cb08fb" 
+      allowfullscreen loading="lazy">
+    </iframe>
+  </div>
+</section>
+         
+<!-- Skills Section -->
+<section class="skills py-5">
+  <div class="container">
+    <h2 class="section-title text-center">Skills</h2>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">HTML5, CSS3, SCSS, Bootstrap, JavaScript</li>
+      <li class="list-group-item">Wix, Canva, Adobe XD</li>
+      <li class="list-group-item">Responsive Design, UX/UI, Google Business</li>
+      <li class="list-group-item">Currently Learning: Google Analytics</li>
+    </ul>
+  </div>
+</section>
+ 
+
+  <!--preloader js with fade out animation-->
+<script>
+  window.addEventListener("load", function () {
+    const preloader = document.getElementById("preloader");
+    if (preloader) {
+      preloader.classList.add("fade-out");
+      setTimeout(() => {
+        preloader.style.display = "none";
+      }, 500); // transition duration
+    }
+  });
+</script>
+  
+
+  
+  <!-- Typing animation on homepage-->
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ <script> typed = new Typed (".auto-type", {
+    strings: ["Web Developer", "Digital Architect", "builder of change"],
+    typeSpeed: 140,
+    backSpeed: 125,
+    loop: true
+  });
+  </script>
+
+  <section id="contact" class="py-5 bg-light">
+  <div class="container" style="max-width:760px">
+    <h2 class="mb-2 text-center">Let’s Build Something Better, Together</h2>
+    <p class="text-center mb-4">
+      Contractors, hiring managers, or collaborators—drop me a note and I’ll reply within 24 hours.
+    </p>
+
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you/">
+      <!-- Netlify needs these -->
+      <input type="hidden" name="form-name" value="contact" />
+      <p class="d-none">
+        <label>Don’t fill this out: <input name="bot-field" /></label>
+      </p>
+
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label class="form-label" for="name">Name</label>
+          <input id="name" class="form-control" type="text" name="name" required />
+        </div>
+        <div class="col-md-6">
+          <label class="form-label" for="email">Email</label>
+          <input id="email" class="form-control" type="email" name="email" required />
+        </div>
+        <div class="col-md-6">
+          <label class="form-label" for="type">I’m looking for</label>
+          <select id="type" class="form-select" name="type">
+            <option>Contractor website</option>
+            <option>Website tune-up</option>
+            <option>Google Business optimization</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label" for="budget">Budget (optional)</label>
+          <select id="budget" class="form-select" name="budget">
+            <option value="">Select…</option>
+            <option>Under $500</option>
+            <option>$500–$1,500</option>
+            <option>$1,500–$3,000</option>
+            <option>$3,000+</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <label class="form-label" for="message">Project details</label>
+          <textarea id="message" class="form-control" name="message" rows="5" required></textarea>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-dark w-100" type="submit">Send message</button>
+          <p class="text-center mt-2 small text-muted">Based in San Antonio — remote-friendly. Replies within 24 hrs.</p>
+        </div>
+      </div>
+    </form>
+  </div>
+</section> 
+</main>
+<footer>
+    <p>&copy; 2025 Delesha Owusu. All rights reserved.</p>
+  </footer>
+  
+
+
+
+
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+</body>
+</html>
